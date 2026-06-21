@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-17-blue" />
-  <img src="https://img.shields.io/badge/Version-0.1.0-green" />
+  <img src="https://img.shields.io/badge/Version-0.1-green" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
   <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" />
   <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen" />
