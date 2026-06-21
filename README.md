@@ -20,8 +20,6 @@
   <h2>Full OSINT Phone Number Investigator</h2>
 </div>
 
-# WHODIS — Full OSINT Phone Number Investigator 📱🔍
-
 **WHODIS** is a powerful command-line OSINT tool for investigating phone numbers across 13+ data sources. It automatically searches public databases, social media, breach records, and more to identify phone number owners.
 
 ## 🎯 Purpose
