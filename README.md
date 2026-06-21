@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://github.com/BangAguse/Gambar/blob/main/whodis.png"/>
-</p>
+<div align="center">
+  <img src="https://github.com/BangAguse/Gambar/blob/main/whodis.png" alt="WHODIS Logo" width="360">
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue" />
@@ -14,6 +14,11 @@
 </p>
 
 ---
+
+<div align="center">
+  <h1>WHODIS</h1>
+  <h2>Full OSINT Phone Number Investigator</h2>
+</div>
 
 # WHODIS — Full OSINT Phone Number Investigator 📱🔍
 
@@ -363,7 +368,7 @@ MIT License - See LICENSE file for details
 
 ## 👤 Author
 
-BangAguse
+[![BangAguse](https://img.shields.io/badge/BangAguse-github-blue?style=for-the-badge&logo=github)](https://github.com/BangAguse)
 
 ## 📞 Support
 
