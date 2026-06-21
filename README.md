@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BangAguse/Gambar/refs/heads/main/protator.png"/>
+  <img src="https://github.com/BangAguse/Gambar/blob/main/whodis.png"/>
 </p>
 
 <p align="center">
