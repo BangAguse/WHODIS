@@ -1,3 +1,20 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BangAguse/Gambar/refs/heads/main/protator.png"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-17-blue" />
+  <img src="https://img.shields.io/badge/Version-0.1.0-green" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" />
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" />
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen" />
+  <a href="https://github.com/BangAguse">
+    <img src="https://img.shields.io/badge/Author-BangAguse-blue" />
+  </a>
+</p>
+
+---
+
 # WHODIS — Full OSINT Phone Number Investigator 📱🔍
 
 **WHODIS** is a powerful command-line OSINT tool for investigating phone numbers across 13+ data sources. It automatically searches public databases, social media, breach records, and more to identify phone number owners.
