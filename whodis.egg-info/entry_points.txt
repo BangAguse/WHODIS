@@ -1,0 +1,2 @@
+[console_scripts]
+whodis = whodis.main:main
