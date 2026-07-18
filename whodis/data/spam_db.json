@@ -1,0 +1,23 @@
+spam_database	
+categories	
+0	"Spam"
+1	"Scam"
+2	"Fraud"
+3	"Telemarketing"
+4	"Robocall"
+5	"Harassment"
+6	"Unknown"
+known_spam_numbers	
+0	
+number	"+62812999999"
+category	"Spam"
+reports	245
+description	"Generic spam calls"
+keywords_indicating_spam	
+0	"spam"
+1	"fraud"
+2	"scam"
+3	"robocall"
+4	"telemarketing"
+5	"harassment"
+notes	"This is a sample database. In production, maintain a comprehensive spam database."
