@@ -1,0 +1,73 @@
+{
+  "virtual_providers": {
+    "Google Voice": {
+      "country": "US",
+      "prefixes": [
+        "650",
+        "659"
+      ]
+    },
+    "TextNow": {
+      "country": "US",
+      "prefixes": [
+        "209",
+        "503",
+        "510",
+        "586",
+        "650",
+        "702",
+        "720",
+        "775",
+        "801",
+        "828",
+        "856",
+        "903",
+        "916",
+        "949",
+        "951",
+        "972"
+      ]
+    },
+    "Burner": {
+      "country": "US",
+      "prefixes": [
+        "272",
+        "362",
+        "482",
+        "612",
+        "817",
+        "838",
+        "841",
+        "843",
+        "870"
+      ]
+    },
+    "Line2": {
+      "country": "US",
+      "prefixes": [
+        "224",
+        "225",
+        "251",
+        "256",
+        "267",
+        "269",
+        "304",
+        "305"
+      ]
+    },
+    "Skype": {
+      "country": "US",
+      "prefixes": [
+        "757",
+        "760",
+        "770",
+        "772",
+        "775",
+        "781",
+        "786",
+        "801"
+      ]
+    }
+  },
+  "notes": "This is a sample database. In production, use more comprehensive sources."
+}
