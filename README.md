@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/BangAguse/Gambar/blob/main/whodis.png" alt="WHODIS Logo" width="360">
+  <img src="https://github.com/BangAguse/Gambar/blob/main/whodis_logo.png" alt="WHODIS Logo" width="360">
 </div>
 
 <p align="center">
