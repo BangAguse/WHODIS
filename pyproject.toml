@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whodis"
+version = "0.1"
+description = "WHODIS — Full OSINT Phone Number Investigator. Complete phone number intelligence with 13+ data sources, caching, batch processing, and multiple export formats."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Security Researcher", email = "admin@example.com"}
+]
+keywords = [
+    "osint",
+    "phone",
+    "investigator",
+    "reverse-lookup",
+    "security",
+    "intelligence"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Security Professionals",
+    "Intended Audience :: System Administrators",
+    "Topic :: Security",
+    "Topic :: Internet",
+    "Topic :: System :: Systems Administration",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+    "lxml>=4.9.3",
+    "phonenumbers>=8.13.0",
+    "colorama>=0.4.6",
+    "tqdm>=4.66.1",
+    "aiohttp>=3.9.1",
+    "selenium>=4.15.2",
+    "webdriver-manager>=4.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.7.0",
+    "flake8>=6.0.0",
+    "isort>=5.12.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/whodis"
+Documentation = "https://github.com/yourusername/whodis/blob/main/README.md"
+Repository = "https://github.com/yourusername/whodis.git"
+"Issue Tracker" = "https://github.com/yourusername/whodis/issues"
+
+[project.scripts]
+whodis = "whodis.main:main"
+
+[tool.setuptools]
+packages = ["whodis", "whodis.sources", "whodis.utils"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+whodis = ["data/*.json", "utils/*.py", "sources/*.py"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 100
